@@ -6,9 +6,9 @@ Our team:
 
   - Dan Dushime
 
-  - Finley St-Denis
+  - Finley St-Denis (300273085)
 
-  - Laura Ishimwe
+  - Laura Ishimwe (8418321)
 
   - Lokmane Tabti
 
