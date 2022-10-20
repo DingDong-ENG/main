@@ -1,3 +1,15 @@
-# Hello! Welcome to our repository! 
+# Hello! Welcome to our GitHub page!
 
-We're a small group of 5 students working on this project, and there isn't really much to see yet, but we'll have more to show soon!
+LAFEL is a company specializing in facilitating household services for both clients and professional workers.
+
+Our team:
+
+  - Dan Dushime
+
+  - Finley St-Denis
+
+  - Laura Ishimwe
+
+  - Lokmane Tabti
+
+  - Séréna Nguegni De Kuété
