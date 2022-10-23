@@ -4,12 +4,12 @@ LAFEL is a company specializing in facilitating household services for both clie
 
 Our team:
 
-  - Dan Dushime
+  - Dan Dushime (300307649)
 
   - Finley St-Denis (300273085)
 
   - Laura Ishimwe (8418321)
 
-  - Lokmane Tabti
+  - Lokmane Tabti (300276601)
 
   - Séréna Nguegni De Kuété
