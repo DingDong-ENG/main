@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LAFEL - Home</title>
+</head>
+<style>
+body {
+  margin: 0;
+  font-family: Garamond, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f4d34e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color: #f4d34e;
+  color: #605e55;
+}
+
+.topnav a.active {
+  background-color: #f4d34e;
+  color: white;
+}
+.topnav a.logo {
+  float: left;
+  color: #f4d34e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a.brand {
+  float: left;
+  color: #f4d34e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: 'Brush Script MT', cursive;
+ }
+ 
+ h1 {
+   color: black;
+   text-align: center;
+   text-decoration: bold;
+   font-size: 50px;
+   font-family: 'Garamond', sans-serif;
+ }
+ p {
+   color: black;
+   text-align: center;
+   text-decoration: none;
+   font-size: 30px;
+   font-family: 'Garamond', sans-serif;
+ }
+ .topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: 1px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="logo" href="#home"><img src="https://i.imgur.com/QupdNyN.png" alt="LAFEL Bell" width="45" height="45"></a>
+  <a class="brand" href="#home">Lafel</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search for services..." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  <a href="#recent">Recent Posts</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About Us</a>
+  <a class="active" href="#home">Home</a>
+</div>
+  <h1>Introducing LAFEL</h1>
+  <p>Helping you find the services you need</p>
+</body>
+</html>
