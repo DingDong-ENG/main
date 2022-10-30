@@ -1,1 +1,7 @@
 Style guidelines for the website:
+  Backgrounds: try not to use anything overly distracting. We have a good photo on the home page, but it might be wise to avoid background images on other pages.
+  Colors: colors can vary, but so far we are sticking to a theme of yellow (#f4d34e), black, white, and grey (#484848).
+  Font: Garamond by default, can be flexible in specific situations though.
+  Font size: varies by context but should remain consistent with the other pages already on GitHub
+  Logo: Currently using a hand-drawn bell logo. Should be changed by the time we get to the pitch, but works as a temporary icon for now.
+  Page titles: Should follow a "LAFEL - <page name>" pattern. The icon should be the company logo until we update it.
