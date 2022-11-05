@@ -16,3 +16,8 @@
    padding: 10px;
    margin: auto;
  }
+ body {
+  background-image:    url("https://productivityteam.com/wp-content/uploads/bb-plugin/cache/contract-engineering-circle.jpg");
+  background-size:     cover; 
+  background-repeat:   no-repeat;
+}
