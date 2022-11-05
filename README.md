@@ -12,4 +12,4 @@ Our team:
 
   - Lokmane Tabti (300276601)
 
-  - Séréna Nguegni De Kuété
+  - Séréna Nguegni De Kuété (300325113)
