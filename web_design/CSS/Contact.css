@@ -1,0 +1,25 @@
+h1 {
+   color: black;
+   text-align: center;
+   text-decoration: bold;
+   font-size: 38px;
+   font-family: 'Garamond', sans-serif;
+ }
+ h2 {
+   color: black;
+   text-align: Left;
+   text-decoration: bold;
+   font-size: 17px;
+   font-family: 'Garamond', sans-serif;
+ }
+
+div.a {
+  text-indent: 100px;
+}
+
+div.b {
+   text-indent: 10%;
+}
+div.c {
+   text-indent: 10em;
+}
