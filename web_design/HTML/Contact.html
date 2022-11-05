@@ -1,20 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LAFEL - Contact</title>
-	<link rel="icon" type="image/x-icon" href="https://i.imgur.com/luBw2xC.png">
-	<link rel="stylesheet" type="text/css" href="../CSS/Styles.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/Contact.css">
+	<title>DingDong - Contact</title>
 </head>
 <body>
 <style>
+body {
+  margin: 0;
+  font-family: Garamond, Helvetica, sans-serif;
+}
 
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f4d34e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color: #f4d34e;
+  color: #605e55;
+}
+
+.topnav a.active {
+  background-color: #f4d34e;
+  color: white;
+}
+.topnav a.logo {
+  float: left;
+  color: #f4d34e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a.brand {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: 'Garamond';
+ }
+ 
+ h1 {
+   color: black;
+   text-align: center;
+   text-decoration: bold;
+   font-size: 38px;
+   font-family: 'Garamond', sans-serif;
+ }
+ h2 {
+   color: black;
+   text-align: Left;
+   text-decoration: bold;
+   font-size: 17px;
+   font-family: 'Garamond', sans-serif;
+ }
+ p {
+   color: black;
+   text-decoration: bold;
+   font-size: 15px;
+   font-family: 'Garamond'
+ }
+ .topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: 1px;
+  cursor: pointer;
+}
+
+div.a {
+  text-indent: 100px;
+}
+
+div.b {
+   text-indent: 10%;
+}
+
+div.c {
+   text-indent: 100px;
+}
 </style>
 </head>
 <body>
 <div class="topnav">
   <a class="logo" href="#home"><img src="https://i.imgur.com/QupdNyN.png" alt="LAFEL Bell" width="45" height="45"></a>
-  <a class="brand" href="#home">LAFEL</a>
+  <a class="brand" href="#home">DingDong</a>
   <div class="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search for services..." name="search">
@@ -28,31 +123,35 @@
 </div>
   <h1><br>GET IN CONTACT WITH US!</h1>
   <div class="a">
-  <h2>Name*</h2>
+  <form action="/action_page.php">
+  <p><label for="fname">Name*:</label></p>
   </div>
   <div class="b">
-  <p1>  <u>Enter your name...     </u></p1>
+	<input type="text" placeholder="Enter your name..." name="fname"><br>  
   </div>
   <div class="a">
-  <h2>Email*</h2>
+  <p><label for="email">E-mail*:</label><br><p>
   </div>
   <div class="b">
-  <p1>  <u>Enter your email adress...</u></p1>
+  <input type="text" placeholder="Enter your e-mail adress..." name="email"><br>
   </div>
   <div class="a">
-  <h2>Message*</h2>
+  <p><label for="message">Message*:</label><br></p>
   </div>
   <div class="b">
-  <p1>  <u>Type your message here...</u></p1>
+     <input type="text" placeholder="Type your message..." name="message"><br><br>
+     <p style="margin-left:10%; margin-right:10%;"><input type="submit" value="SUBMIT">
+  </form> 
   </div>
-  <div class="c">
-  <h2><br><br>LAFEL</h2>
+  <hr/>
+  	<div style="float:left;margin: 40px;">
+  	<h2><p style="margin-left:20%; margin-right:10%;">DingDong</h2>
+  	<p style="margin-left:20%; margin-right:10%;">Head office:</p>
+  	<p style="margin-left:20%; margin-right:10%;">75 Laurier Ave. E, Ottawa, ON K1N 6N5</p>
+  	</div>
+  <div style="float: center;margin: 40px;">
+  <h2><p style="margin-left:50%;">Contact-us:</h2>
+  <p3><p style="margin-left:50%;">Email adress: info.lafel@gmail.com<br><br></p3>
   </div>
-  <p>Head office:</p>
-  <p>75 Laurier Ave. E, Ottawa, ON K1N 6N5</p>
-  <div class="c">
-  <h2><br>Contact-us:</h2>
-  </div>
-  <p3>Email adress:info.lafel@gmail.com</p3>
 </body>
 </html>
