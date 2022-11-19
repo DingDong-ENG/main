@@ -1,0 +1,32 @@
+span.a {
+  display: inline-block; /* the default for span */
+  border-radius: 15px;
+  border: 3px solid #484848;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  background: #3bd354;
+  float: left;
+}
+
+span.b {
+  display: inline-block; /* the default for span */
+  border-radius: 15px;
+  border: 3px solid #484848;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  background: #6ad4c4;
+  float: left; 
+}
+
+span.c {
+  display: inline-block; /* the default for span */
+  border-radius: 15px;
+  border: 3px solid #484848;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  background: #e9974f;
+  float: left; 
+}
