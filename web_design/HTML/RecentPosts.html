@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DingDong - Recent Posts</title>
-	<link rel="icon" type="image/x-icon" href="https://i.imgur.com/ScFOaet.png">
+	<title>DingDong! - Recent Posts</title>
+	<link rel="icon" type="image/x-icon" href="https://i.imgur.com/pcURI5z.png">
 	<link rel="stylesheet" type="text/css" href="../CSS/Styles.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/Posts.css">
 </head>
 <style>
 
@@ -13,22 +14,9 @@
    text-decoration: bold;
    font-size: 50px;
    font-family: 'Garamond', sans-serif;
+   display: block;
  }
- h2 {
-   color: black;
-   background-color: white;
-   text-decoration: none;
-   font-size: 30px;
-   font-family: 'Garamond', sans-serif;
-   width: auto;
-   border: 2px #f4d34e;
-   margin: auto;
- }
- p {
-   color: black;
-   text-decoration: none;
-   font-size: 15px;
-   font-family: 'Garamond'
+
 a:link {
   color: blue;
 }
@@ -43,7 +31,7 @@ a:active {
 }
 </style>
 <div class="topnav">
-  <a class="logo" href="#home"><img src="https://i.imgur.com/ScFOaet.png" alt="DingDong Bell" width="45" height="45"></a>
+  <a class="logo" href="#home"><img src="https://i.imgur.com/pcURI5z.png" alt="DingDong! Bell" width="45" height="45"></a>
   <a class="brand" href="#home">DingDong!</a>
   <div class="search-container">
     <form action="/action_page.php">
@@ -51,34 +39,50 @@ a:active {
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
-  <a class="active" href="/recent">Recent Posts</a>
-  <a href="/contact">Contact</a>
-  <a href="/about">About Us</a>
-  <a href="/home">Home</a>
+  <a class="active" href="../HTML/RecentPosts.html">Recent Posts</a>
+  <a href="../HTML/Contact.html">Contact</a>
+  <a href="../HTML/About.html">About Us</a>
+  <a href="../HTML/Home.html">Home</a>
 </div>
 <body>
 <h1><u>Recent Posts</u></h1>
-<div style="border-radius: 15px; border: 3px solid #484848; padding: 20px; width: 300px; height: 500px; background: #3bd354; float: left; display: inline;">
-	<div>
-		<h2>Garrideb Gardening</h2>
-		</div>
+</body>
+<body>
+<div class="bigspace"></div>
+<div class="A">
+	<span class="name">Garrideb Gardening</span>
 	<img src="https://i.imgur.com/MDRGucU.png" width="273" height="182">
-	<div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet ligula non urna euismod pellentesque sit amet et arcu. Mauris suscipit massa mauris, vel tincidunt justo luctus mattis. Mauris et tortor lorem. Maecenas nunc sapien, condimentum mattis eros eu, mollis fringilla purus.<br><br>Integer scelerisque, eros quis pellentesque consequat, nibh tortor pretium eros, vitae feugiat tellus justo eget lacus.<br><br>Email: <a href="mailto:joan@ggardens.ca" target="_blank">joan@ggardens.ca</a><br>Phone: (613) 415-5575</p>
-		</div>
-<div style="border-radius: 15px; border: 3px solid #484848; padding: 20px; width: 300px; height: 500px; background: #6ad4c4; float: left; display: inline;">
-	<div>
-		<h2>Pam's Plumbing</h2>
-		</div>
+	<span class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet ligula non urna euismod pellentesque sit amet et arcu. Mauris suscipit massa mauris, vel tincidunt justo luctus mattis. Mauris et tortor lorem. Maecenas nunc sapien, condimentum mattis eros eu, mollis fringilla purus.<br><br>Integer scelerisque, eros quis pellentesque consequat, nibh tortor pretium eros, vitae feugiat tellus justo eget lacus.<br><br>Email: joan@ggardens.ca<br>Phone: (613) 415-5575</span>
+	</div>
+<div class="space"></div>
+<div class="B">
+	<span class="name">Pam's Plumbing</span>
 	<img src="https://i.imgur.com/Udj1ajD.jpg" width="273" height="182">
-	<div>
-		<p>Vestibulum vel consequat ante. Nullam rutrum, metus ut feugiat viverra, tortor nisl consequat dolor, a ornare metus ex at ipsum. Pellentesque dignissim justo ac est mollis, vitae efficitur lacus commodo.<br><br>Mauris leo leo, consequat id risus sagittis, pretium lacinia ante. Sed nibh sapien, posuere sed auctor sed, porta non neque. Donec hendrerit tortor odio, id condimentum tellus luctus non. Nam malesuada hendrerit commodo.<br><br>Website: <a href="https://www.pamsplumbing.com/home/" target="_blank">www.pamsplumbing.com</a><br>Phone: (613) 227-7465</p>
-<div style="border-radius: 15px; border: 3px solid #484848; padding: 20px; width: 300px; height: 500px; background: #e9974f; float: left; display: inline;">
-	<div>
-		<h2>Liam Lights</h2>
-		</div>
+	<span class="para">Vestibulum vel consequat ante. Nullam rutrum, metus ut feugiat viverra, tortor nisl consequat dolor, a ornare metus ex at ipsum. Pellentesque dignissim justo ac est mollis, vitae efficitur lacus commodo.<br><br>Mauris leo leo, consequat id risus sagittis, pretium lacinia ante. Sed nibh sapien, posuere sed auctor sed, porta non neque. Donec hendrerit tortor odio, id condimentum tellus luctus non. Nam malesuada hendrerit commodo.<br><br>Website: www.pamsplumbing.com<br>Phone: (613) 227-7465</span>
+	</div>
+<div class="space"></div>
+<div class="C">
+	<span class="name">Liam Lights</span>
 	<img src="https://i.imgur.com/l4F02Pw.jpg" width="273" height="182">
-	<div>
-		<p>Aliquam erat volutpat. Curabitur dapibus a elit eget vulputate. Aliquam erat volutpat. Morbi venenatis eu ipsum sit amet blandit. Fusce aliquet rhoncus lectus, sit amet scelerisque urna condimentum dignissim.<br><br>Mauris vel est eget velit elementum viverra quis eget urna. Pellentesque vestibulum porta laoreet. In in faucibus risus. Donec tempor orci sit amet dapibus viverra. Mauris sed sapien augue. Quisque ac mauris tristique, tincidunt justo in, efficitur mauris.<br><br>Website: <a href="https://www.liamlights.com/" target="_blank">www.liamlights.com</a><br>Phone: (613) 224-7617</p>
+	<span class="para">Aliquam erat volutpat. Curabitur dapibus a elit eget vulputate. Aliquam erat volutpat. Morbi venenatis eu ipsum sit amet blandit. Fusce aliquet rhoncus lectus, sit amet scelerisque urna condimentum dignissim.<br><br>Mauris vel est eget velit elementum viverra quis eget urna. Pellentesque vestibulum porta laoreet. In in faucibus risus. Donec tempor orci sit amet dapibus viverra. Mauris sed sapien augue. Quisque ac mauris tristique, tincidunt justo in, efficitur mauris.<br><br>Website: www.liamlights.com<br>Phone: (613) 224-7617</span>
+	</div>
+<div class="bigspace"></div>
+<div class="D">
+	<span class="name">Eric's Electrical</span>
+	<img src="https://i.imgur.com/4F90YTT.jpg" width="273" height="182">
+	<span class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet ligula non urna euismod pellentesque sit amet et arcu. Mauris suscipit massa mauris, vel tincidunt justo luctus mattis. Mauris et tortor lorem. Maecenas nunc sapien, condimentum mattis eros eu, mollis fringilla purus.<br><br>Integer scelerisque, eros quis pellentesque consequat, nibh tortor pretium eros, vitae feugiat tellus justo eget lacus.<br><br>Email: ericp@ericsel.ca<br>Phone: (613) 412-5575</span>
+	</div>
+<div class="space"></div>
+<div class="E">
+	<span class="name">Asphalt by Ashley</span>
+	<img src="https://i.imgur.com/c5BsXK6.jpg" width="273" height="182">
+	<span class="para">Vestibulum vel consequat ante. Nullam rutrum, metus ut feugiat viverra, tortor nisl consequat dolor, a ornare metus ex at ipsum. Pellentesque dignissim justo ac est mollis, vitae efficitur lacus commodo.<br><br>Mauris leo leo, consequat id risus sagittis, pretium lacinia ante. Sed nibh sapien, posuere sed auctor sed, porta non neque. Donec hendrerit tortor odio, id condimentum tellus luctus non. Nam malesuada hendrerit commodo.<br><br>Website: www.ashphalt.com<br>Phone: (613) 321-6789</span>
+	</div>
+<div class="space"></div>
+<div class="F">
+	<span class="name">Eelectrical</span>
+	<img src="https://i.imgur.com/HbkdVqb.jpg" width="273" height="182">
+	<span class="para">Aliquam erat volutpat. Curabitur dapibus a elit eget vulputate. Aliquam erat volutpat. Morbi venenatis eu ipsum sit amet blandit. Fusce aliquet rhoncus lectus, sit amet scelerisque urna condimentum dignissim.<br><br>Mauris vel est eget velit elementum viverra quis eget urna. Pellentesque vestibulum porta laoreet. In in faucibus risus. Donec tempor orci sit amet dapibus viverra. Mauris sed sapien augue. Quisque ac mauris tristique, tincidunt justo in, efficitur mauris.<br><br>Website: www.eelectrical.com<br>Phone: (613) 716-7422</span>
+	</div>
 </body>
 </html>
